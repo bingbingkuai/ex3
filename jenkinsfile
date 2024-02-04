@@ -4,9 +4,10 @@ pipeline {
         stage('build') {
             steps {
                 sh 'uname -a'
+                echo 'this is the TEST branch'
             }
         }
     }
 }
 
-echo "this is the TEST branch"
+
